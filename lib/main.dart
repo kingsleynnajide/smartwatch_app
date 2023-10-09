@@ -14,17 +14,16 @@ class SmartWatch extends StatelessWidget {
             padding: const EdgeInsets.all(25.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-             children: [
-              Image.asset('assests/images/Smartwatch 5-PNG',
-              
-              height: 240,
-              )
-             ], 
+              children: [
+                Image.asset(
+                  'assets/images/smartwatch1.png',
+                  height: 240,
+                )
+              ],
             ),
           ),
-          ),
+        ),
       ),
-      
     );
   }
 }
